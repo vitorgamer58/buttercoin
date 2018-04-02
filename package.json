@@ -7,23 +7,21 @@
     "start": "bin/dev-standalone",
     "test": "sh test.sh"
   },
-  "engine": "node >= 0.10.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/buttercoin/buttercoin.git"
   },
   "dependencies": {
-    "buttercoin-engine": "git://github.com/buttercoin/buttercoin-engine.git#master",
+    "buttercoin-engine": "git://github.com/buttercoin/buttercoin-engine.git#v0.0.3",
     "isnode": "*",
     "ws": "*",
     "wsany": "*",
-    "stump": "0.0.4",
+    "stump": "*",
     "enkihelpers": "*",
     "enkicolor": "*",
     "q": "*",
     "q-io": "*",
     "eemitterport": "*",
-    "chained-emitter": "*",
     "deque": "*",
     "redblack": "*",
     "jspack": "*",
@@ -31,8 +29,6 @@
     "connect": "3.5.0",
     "engine.io-client": "1.7.2",
     "engine.io": "1.7.2"
-    "underscore": "*",
-    "optimist": "*"
   },
   "devDependencies": {
     "chai": "*",
