@@ -27,10 +27,10 @@
     "deque": "*",
     "redblack": "*",
     "jspack": "*",
-    "express": "3.2.0",
-    "connect": "2.7.6",
-    "engine.io-client": "0.5.0",
-    "engine.io": "0.5.0",
+    "express": "4.14.0",
+    "connect": "3.5.0",
+    "engine.io-client": "1.7.2",
+    "engine.io": "1.7.2"
     "underscore": "*",
     "optimist": "*"
   },
